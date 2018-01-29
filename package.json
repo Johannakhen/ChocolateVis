@@ -1,0 +1,23 @@
+{
+  "name": "ChocolateVis",
+  "version": "1.0.0",
+  "description": "D3 Startup - Project Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johannakhen/ChocolateVis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johannakhen/ChocolateVis/issues"
+  },
+  "homepage": "https://github.com/Johannakhen/ChocolateVis#readme",
+  "dependencies": {
+    "d3": "^4.13.0"
+  }
+}
