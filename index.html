@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>chocolate datavis</title>
+</head>
+<body>
+  <canvas width="960" height="500"></canvas>
+<script src="https://d3js.org/d3.v4.0.0-alpha.4.min.js"></script>
+<script>
+  console.log(d3)
+  (function() {
+
+    var canvas = document.querySelector("canvas"),
+      context = canvas.getContext("2d");
+
+    var width = canvas.width,
+      height = canvas.height,
+      radius = Math.min(width, height) / 2;
+    d3.csv("/assets/data.csv", function(data) {
+      console.log(data[0]);
+    })
+
+  })()
+</script>
+</body>
+</html>
